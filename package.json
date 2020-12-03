@@ -2,7 +2,7 @@
   "name": "protocalBuffers",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index2.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/gymcode/protocolBuff/issues"
   },
-  "homepage": "https://github.com/gymcode/protocolBuff#readme"
+  "homepage": "https://github.com/gymcode/protocolBuff#readme",
+  "dependencies": {
+    "google-protobuf": "^3.14.0"
+  }
 }
