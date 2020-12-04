@@ -30,8 +30,14 @@ students.addStudents(Student3)
 
 // finding the bytes of the things
 const bytes = students.serializeBinary();
+const deserialize =  Schema.Students.deserializeBinary(bytes)
+
+fs.writeFileSync('stringData', deserialize.toString())
+fs.writeFileSync('stringData.json', students.getStudentsList())
 
 console.log(bytes)
+console.log(deserialize.toString())
+console.log(students.getStudentsList())
 
 
 
