@@ -1,4 +1,5 @@
 const Schema = require('./students_pb');
+const fs = require('fs')
 
 const Student1 = new Schema.Student();
 Student1.setId(10659488);
@@ -28,6 +29,9 @@ students.addStudents(Student3)
 
 
 // finding the bytes of the things
+const bytes = students.serializeBinary();
+
+console.log(bytes)
 
 
 

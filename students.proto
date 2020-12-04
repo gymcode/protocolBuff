@@ -8,6 +8,6 @@ message Student {
     string college = 5;
 }
 
-message Sudents {
+message Students {
     repeated Student students = 1;
 }
