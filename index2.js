@@ -34,4 +34,4 @@ console.log(`the byte is ${byte}`);
 
 //deserializing things
 const employees2 = Schema.Employees.deserializeBinary(byte)
-console.log(employees2)
+console.log(employees2.toString())
