@@ -31,3 +31,7 @@ console.log(`my name is ${Kenneth.getSalary()}`);
 console.log(`my name is ${Karen.getSalary()}`);
 console.log(`the array is ${employees.getEmployeesList()}`);
 console.log(`the byte is ${byte}`);
+
+//deserializing things
+const employees2 = Schema.Employees.deserializeBinary(byte)
+console.log(employees2)
